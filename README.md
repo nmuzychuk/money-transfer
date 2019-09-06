@@ -1,4 +1,6 @@
 # Money Transfer
+[![Build Status](https://travis-ci.org/nmuzychuk/money-transfer.svg?branch=master)](https://travis-ci.org/nmuzychuk/money-transfer)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6997b36b968b41cb964b3db3e4f75305)](https://www.codacy.com/manual/nmuzychuk/money-transfer)
 
 ## Overview
 Transfers money between accounts. Requires redis.
@@ -24,3 +26,6 @@ Run JUnit tests
 ```
 mvn test
 ```
+
+## License
+This project is released under the [MIT License](LICENSE.txt)
