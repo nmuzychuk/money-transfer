@@ -84,11 +84,7 @@ public class AppTest {
         out.print(s);
         out.close();
 
-        String body = IOUtils.toString(conn.getInputStream());
-
         assertEquals(201, conn.getResponseCode());
-        System.out.println(body);
-        assertEquals("App.Transfer[id=1,status=New,sender=1,receiver=2,amount=70]", body);
 
         url = new URL("http://localhost:4567/transfers");
         conn = (HttpURLConnection) url.openConnection();
@@ -105,10 +101,6 @@ public class AppTest {
         out.print(s);
         out.close();
 
-        body = IOUtils.toString(conn.getInputStream());
-
         assertEquals(201, conn.getResponseCode());
-        System.out.println(body);
-        assertEquals("App.Transfer[id=2,status=New,sender=1,receiver=2,amount=50]", body);
     }
 }
