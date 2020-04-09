@@ -44,7 +44,7 @@ public class AppTest {
         String body = IOUtils.toString(conn.getInputStream());
 
         assertEquals(201, conn.getResponseCode());
-        assertEquals("App.Account[id=1,name=Bob,balance=100]", body);
+        assertEquals("App.Account[balance=100,id=1,name=Bob]", body);
 
         url = new URL("http://localhost:4567/accounts");
         conn = (HttpURLConnection) url.openConnection();
@@ -63,7 +63,7 @@ public class AppTest {
         body = IOUtils.toString(conn.getInputStream());
 
         assertEquals(201, conn.getResponseCode());
-        assertEquals("App.Account[id=2,name=Kate,balance=100]", body);
+        assertEquals("App.Account[balance=100,id=2,name=Kate]", body);
     }
 
     @Test
