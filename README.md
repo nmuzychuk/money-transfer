@@ -1,5 +1,5 @@
 # Money Transfer
-[![Build Status](https://travis-ci.org/nmuzychuk/money-transfer.svg?branch=master)](https://travis-ci.org/nmuzychuk/money-transfer)
+[![Java CI with Maven](https://github.com/nmuzychuk/money-transfer/actions/workflows/maven.yml/badge.svg)](https://github.com/nmuzychuk/money-transfer/actions/workflows/maven.yml)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6997b36b968b41cb964b3db3e4f75305)](https://www.codacy.com/manual/nmuzychuk/money-transfer)
 
 ## Overview
